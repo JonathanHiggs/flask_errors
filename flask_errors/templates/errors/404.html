@@ -3,5 +3,7 @@
 {% block error_content %}
 <h1>Page Not Found</h1>
 <p>The page you're looing for doesn't exist</p>
-<p><a class="btn btn-info btn-md" href="{{ url_for('main.home') }}">Back</a></p>
+{% if home_endpoint is not none %}
+  <p><a class="btn btn-info btn-md" href="{{ url_for(home_endpoint) }}">Back</a></p>
+{% endif %}
 {% endblock %}

@@ -20,7 +20,7 @@ setup(
     description='Flask error handlers',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='ssh://github.com/JonathanHiggs/flask_errors',
+    url='https://github.com/JonathanHiggs/flask_errors',
     author='Jonathan Higgs',
     author_email='jonathan.higgs.11@mail.wbs.ac.uk',
     packages=find_packages(),
