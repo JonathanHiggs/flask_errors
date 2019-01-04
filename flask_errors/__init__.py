@@ -20,7 +20,7 @@ def internal_error(error):
 
 
 class Errors:
-    def __init__(self, app):
+    def __init__(self, app=None):
         self.app = app
         if self.app is not None:
             self.init_app(self.app)
