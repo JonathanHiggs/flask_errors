@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the repo and install Flask-Errors with `pip`:
 
 ```bash
-git clone ssh://github.com/JonathanHiggs/flask_errors
+git clone ssh://github.com:JonathanHiggs/flask_errors
 cd flask_errors
 pip install .
 ```
